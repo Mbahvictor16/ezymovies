@@ -1,0 +1,12 @@
+menu::-webkit-scrollbar {
+ width: 1px;
+}
+
+menu::-webkit-scrollbar-thumb {
+    background: #111;
+    border-radius: 8px;
+}
+
+menu button {
+    @apply px-4 py-1 border border-white rounded-2xl w-max
+}

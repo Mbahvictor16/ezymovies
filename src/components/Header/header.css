@@ -1,0 +1,23 @@
+header {
+  @apply flex items-center justify-between h-20 px-3 py-2 border-b-2 border-b-[#222] border-solid md:px-5 md:py-4 lg:px-7 lg:py-6; 
+}
+
+nav.sm-screen {
+  @apply absolute bg-black top-0 left-0 w-1/2 h-dvh translate-x-[-100%] transition-transform duration-700 shadow-sm shadow-[#222] lg:relative lg:translate-x-0 lg:w-fit lg:h-20;
+}
+
+nav ul {
+  @apply list-none mt-20 w-fit mx-auto lg:flex lg:justify-evenly items-center lg:mt-0 lg:mx-0 lg:gap-x-12 font-bold text-lg;
+}
+
+nav ul li {
+  @apply my-6;
+}
+
+nav.open {
+  @apply translate-x-0;
+}
+
+nav a.active {
+  @apply text-yellow-400
+}

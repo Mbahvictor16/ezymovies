@@ -1,0 +1,11 @@
+.movie-card {
+    @apply h-fit w-60
+}
+
+.movie-image {
+    @apply w-full h-72  bg-[#222];
+}
+
+.movie-title {
+    @apply text-ellipsis text-nowrap overflow-hidden text-3xl font-bold;
+}
